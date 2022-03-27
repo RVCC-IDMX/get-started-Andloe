@@ -38,7 +38,7 @@ This project consist on turning a Figma design to a real HTML. The web page basi
 
 # Figma Design
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FzMHln5t6UpITic3mdu5Dkz%2FFigma-Design%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+<a href="https://www.figma.com/file/zMHln5t6UpITic3mdu5Dkz/Figma-Design?node-id=0%3A1" title="Figma Design">My Figma Design</a>
 
 # Videos Used
 
@@ -49,3 +49,4 @@ This project consist on turning a Figma design to a real HTML. The web page basi
 ## Favicon
 
 <a href="https://www.flaticon.com/free-icons/interface" title="interface icons">Interface icons created by Tempo_doloe - Flaticon</a>
+
