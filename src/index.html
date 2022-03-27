@@ -10,8 +10,32 @@
 </head>
 
 <body>
+  <nav class="nav">
+    <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+    <label for="nav__checkbox" class="nav__toggle">
+        <svg class="menu" viewBox="0 0 448 512" width="100" title="bars">
+          <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+        </svg>
+        <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+          <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+        </svg>
+    </label>
+    <ul class="nav__menu">
+      <li><a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16">
+          <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+          <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+        </svg>
+      </a></li>
+      <li><a href="#">Get Started</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
   <main>
     <h1>Get Started</h1>
+    <hr>
     <div class="wrapper">
       <div class="container">
         <h2 class="title">Pick a Template</h2>
@@ -27,6 +51,53 @@
         <h2 class="title">Share It Out</h2>
         <p class="description">Send your card out by email or text. You can send out your card immediately or schedule it for the perfect time and date.</p>
       </div>
+    </div>
+
+    <div class="about">
+      <h1>About</h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac orci tempus, congue libero eu, tincidunt mi. Nunc a nunc eu velit convallis blandit. Sed porttitor gravida scelerisque. Nullam pellentesque, est a dictum pharetra, justo lectus vestibulum tortor, vel gravida nisi enim nec quam. Donec lacinia
+
+      Tincidunt velit nec aliquam. Ut luctus enim et eros ultricies vulputate. Integer a sollicitudin lorem, nec semper turpis. Mauris ut placerat sem. Quisque sed mattis urna. Ut placerat ante non feugiat porta. Nullam eu ligula vel massa venenatis malesuada sit amet sed nisi. Mauris eleifend tortor eros.</p>
+    </div>
+
+    <div class="contact_container">
+    <section id="contact">
+
+      <h1>Contact</h1>
+      <hr>
+
+      <form id="contactForm" name="contactForm" method= "post" data-netlify="true" >
+
+          <fieldset>
+
+              <div id="formElements">
+
+                  <!-- Name -->
+                  <label for="name">Name (required) </label>
+                  <input type="text" id="name" name="name" required>
+
+                  <!-- Email -->
+                  <label for="email">Email (required) </label>
+                  <input type="email" id="email" name="email" required>
+
+                  <!-- Message -->
+                  <label for="message">Message (optional)</label>
+                  <textarea id="message" name="message" rows="8"></textarea>
+
+                  </fieldset>
+
+                  <!-- Submit -->
+                  <button type="submit">Send</button>
+
+              </div>
+
+          </fieldset>
+
+      </form>
+
+  </section>
+    </div>
     </div>
   </main>
 </body>
